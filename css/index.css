@@ -4,7 +4,7 @@
 /* General Styling */
 header {
     background-color: #096219;
-    color: #ffff;
+    color:#d89557;
     position: sticky;
     Top: 0;
     right: 0;
@@ -14,7 +14,7 @@ header {
     margin-bottom: 10px;
     font-size: larger;
     font-weight: bolder;
-    
+    font-style: initial;
 }
 
 main {

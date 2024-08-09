@@ -4,7 +4,7 @@
 /* General Styling */
 body {
     background-color: #e6f7ff; /* Change the background color of the page body */
-    color: #3d3c3c; /* Change the default text color */
+    color: #952b0b; /* Change the default text color */
     font-family: 'Roboto', sans-serif; /* Customize the font family */
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ section {
 /* Header Styling */
 header {
     text-align: center; /* Change the alignment of the content */
-    background-color: rgb(18, 209, 11); /* Custom background color */
+    background-color: rgb(19, 81, 17); /* Custom background color */
     color: rgb(48, 215, 181); /* Custom text color */
     padding: 50px 0; /* Padding for spacing */
 }
@@ -27,8 +27,10 @@ header {
 header h1 {
     font-size: 3em; /* Change the font size */
     font-weight: 700; /* Change the font weight */
-    color: black; /* Change the font color */
+    color: rgb(255, 255, 255); /* Change the font color to white */
     text-transform: uppercase; /* Transform the style of your name */
+    letter-spacing: 2px; /* Add spacing between letters */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
 }
 
 /* Experience Section */

@@ -1,0 +1,72 @@
+/* Load a font family from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styling */
+body {
+    background-color: #e6f7ff; /* Change the background color of the page body */
+    color: #952b0b; /* Change the default text color */
+    font-family: 'Roboto', sans-serif; /* Customize the font family */
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px; /* Add padding between sections */
+    margin: 20px 0; /* Add margin between sections */
+    border: 1px rgb(2, 2, 17); /* Add border to visualize sections */
+}
+
+/* Header Styling */
+header {
+    text-align: center; /* Change the alignment of the content */
+    background-color: rgb(19, 81, 17); /* Custom background color */
+    color: rgb(48, 215, 181); /* Custom text color */
+    padding: 50px 0; /* Padding for spacing */
+}
+
+header h1 {
+    font-size: 3em; /* Change the font size */
+    font-weight: 700; /* Change the font weight */
+    color: rgb(255, 255, 255); /* Change the font color to white */
+    text-transform: uppercase; /* Transform the style of your name */
+    letter-spacing: 2px; /* Add spacing between letters */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
+}
+
+/* Experience Section */
+#experience ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+#experience li {
+    background-color: rgb(145, 145, 19); /* Background color for list items */
+    border: 1px pink; /* Border for list items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside list items */
+    margin: 10px 0; /* Margin between list items */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for list items */
+}
+
+/* Connect Section */
+#connect a {
+    display: inline-block; /* Transform links into block style */
+    background-color: #007acc; /* Background color for links */
+    color: #fff; /* Text color for links */
+    padding: 10px 15px; /* Padding for links */
+    margin: 5px; /* Margin between links */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#connect a:hover {
+    background-color: olive; /* Hover effect */
+}
+
+/* Headings Styling */
+h2 {
+    font-size: 2em; /* Change the font size of headings */
+    font-weight: 700; /* Change the font weight of headings */
+    color: rgb(207, 129, 27); /* Change the color of headings */
+}

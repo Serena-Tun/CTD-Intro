@@ -1,7 +1,7 @@
 /* Load a font family from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* General Styling */
+/* Mobile-First Default Styles */
 header {
     background-color: #096219;
     color:#d89557;
@@ -11,13 +11,37 @@ header {
     Left: 0;
     text-align: center;
     padding: 10px 0;
-    margin-bottom: 10px;
-    font-size: larger;
+    margin: 20px 0; /* Change the margin */
+    font-size: 24px; /* Change the font size */
     font-weight: bolder;
     font-style: initial;
 }
 
+.navbar ul {
+    list-style-type: none;
+    background-color: #333; /* Change background color */
+    padding: 10px; /* Change the padding */
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li {
+    float: left;
+    padding: 5px; /* Change the padding */
+    font-size: 18px; /* Change the font size */
+}
+
 main {
+    font-size: 16px;
     background-color: #e4e4e4; /* Change the background color of the page body */
     color: #ae6f2f; /* Change the default text color */
     font-family: 'Roboto', sans-serif; /* Customize the font family */
@@ -92,5 +116,12 @@ h2 {
         padding: 30px 20px;
         display: flex;
         flex-direction: column;
-        align-items: left;
 }
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+}
+
+/* <600px, 601px, 768px, 992px, 1200px */
